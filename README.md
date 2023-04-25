@@ -1,0 +1,2 @@
+# JavaScript Calculator
+ The "Javascript Calculator" project is an interactive web application designed to help developers improve their skills in Javascript, HTML, and CSS. The project involves building a fully functional calculator using these three technologies.  The calculator will feature a user-friendly interface, allowing users to perform basic arithmetic operations such as addition, subtraction, multiplication, and division.

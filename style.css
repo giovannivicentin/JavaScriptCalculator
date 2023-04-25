@@ -1,0 +1,26 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    font-size: 30px;
+    font-family: monospace;
+    text-align: center;
+    font-family: monospace;
+}
+
+.grid-header {
+    color: white;
+    background-color: black;
+}
+
+.grid-grey {
+    background-color: rgb(226, 226, 226);
+    color: black;
+    border: 2px black solid;
+}
+
+.grid-orange {
+    background-color: rgb(233, 151, 44);
+    color: white;
+    border: 2px black solid;
+}

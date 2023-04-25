@@ -1,26 +1,54 @@
+.grid-header { grid-area: header;}
+#c {grid-area: c;}
+#arrow {grid-area: arrow;}
+#zer {grid-area: zer;}
+#one {grid-area: one;}
+#two {grid-area: two;}
+#three {grid-area: three;}
+#four {grid-area: four;}
+#five {grid-area: five;}
+#six {grid-area: six;}
+#seven {grid-area: seven;}
+#eight {grid-area: eight;}
+#nine {grid-area: nine;}
+#mult {grid-area: mult;}
+#div {grid-area: div;}
+#sum {grid-area: sum;}
+#subt {grid-area: subt;}
+#equal {grid-area: equal;}
+
+
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 10px;
-    font-size: 30px;
+    grid-template:
+    'header header header header'
+    'c c arrow div'
+    'seven eight nine mult'
+    'four five six sub'
+    'one two three sum'
+    'zer zer zer equal';
+    margin: 30px 300px;
+    font-size: 50px;
     font-family: monospace;
     text-align: center;
-    font-family: monospace;
 }
 
 .grid-header {
     color: white;
     background-color: black;
+    text-align: end;
+    padding: 20px 10px;
 }
 
 .grid-grey {
     background-color: rgb(226, 226, 226);
     color: black;
     border: 2px black solid;
+    padding: 50px
 }
-
 .grid-orange {
     background-color: rgb(233, 151, 44);
     color: white;
     border: 2px black solid;
+    padding: 50px;
 }
